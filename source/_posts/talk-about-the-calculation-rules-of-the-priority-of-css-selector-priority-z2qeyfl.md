@@ -18,7 +18,9 @@ comments: true
 toc: true
 ---
 
-# 浅谈 CSS 选择器优先级的计算规则
+![image](https://raw.githubusercontent.com/eeymoo/Eeymoo.github.io/main/images/unsplash-G6VCCOdOCzY-20250107101324-1fqosg5.jpg)
+
+# CSS选择器优先级计算规则及其最佳实践
 
 CSS优先级是一个值得思考的问题，再次之前我对CSS优先级的理解是:
 
