@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Eeymoo' BLOG
 subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
+description: Eeymoo' BLOG 记录 Eeymoo 的 BLOG
+keywords: BLOG,Eeymoo,WEB
+author: Eeymoo
+language: cmn-Hans
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://blog.eeymoo.com/
+permalink: blog/:hash.html
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -43,14 +43,15 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
 highlight:
+  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
+  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -96,9 +97,63 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# feed
+# Dependencies: https://github.com/hexojs/hexo-generator-feed
+feed:
+  enable: true
+  type: 
+    - atom
+    - rss2
+  path: feed.xml
+  limit: false
+  content: true
+  template: 
+    - ./source/atom.xml
+# hexo-hide-posts
+hide_posts:
+  enable: true
+  # 可以改成其他你喜欢的名字
+  filter: hidden
+  # 指定你想要传递隐藏文章的位置，比如让所有隐藏文章在存档页面可见
+  # 常见的位置有：index, tag, category, archive, sitemap, feed, etc.
+  # 留空则默认全部隐藏
+  public_generators: []
+  # 为隐藏的文章添加 noindex meta 标签，阻止搜索引擎收录
+  noindex: true
+# hexo-neat
+# 博文压缩
+neat_enable: true
+# 压缩html
+neat_html:
+  enable: true
+  exclude:
+# 压缩css  
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+# 压缩js
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/jquery.fancybox.pack.js'
+    - '**/index.js'  
+
+# Mermaid (markdwon to flow chart, seq chart, class chart ...)
+mermaid:
+  enable: true
+  # Available themes: default | dark | forest | neutral
+  theme: default
+# hexo-translate-title
+# https://www.npmjs.com/package/hexo-translate-title
