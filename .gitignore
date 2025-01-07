@@ -1,0 +1,7 @@
+# Ignore Hexo generated files
+public/
+.deploy_git/
+.cache/
+node_modules/
+.DS_Store
+npm-debug.log

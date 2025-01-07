@@ -111,7 +111,7 @@ feed:
   type: 
     - atom
     - rss2
-  path: feed.xml
+  path: atom.xml
   limit: false
   content: true
   template: 
