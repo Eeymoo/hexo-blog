@@ -115,7 +115,8 @@ feed:
   limit: false
   content: true
   template: 
-    - ./source/atom.xml
+    - ./template/atom.xml
+    - ./template/rss2.xml
 # hexo-hide-posts
 hide_posts:
   enable: true
