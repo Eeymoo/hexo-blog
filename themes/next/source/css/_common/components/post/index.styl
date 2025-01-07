@@ -4,6 +4,17 @@
       direction: rtl;
       font-family: UKIJ Ekran;
     }
+    p {
+      &:first-of-type{
+         img {
+          &:first-of-type{
+            height: 240px;
+            width: 100%;
+            object-fit: cover;
+          }
+         }
+      }
+    }
   }
 
   &.post-title {
