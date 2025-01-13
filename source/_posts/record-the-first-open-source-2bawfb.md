@@ -11,13 +11,13 @@ comments: true
 toc: true
 ---
 
-![image](https://raw.githubusercontent.com/eeymoo/Eeymoo.github.io/main/images/unsplash-mPzjn-ix_O0-20250112182852-iqb8rrj.jpg)
+![image](assets/unsplash-mPzjn-ix_O0-20250112182852-iqb8rrj.jpg)
 
 # 我的第一次开源贡献：参与jellyfin-vue项目的心得与体会
 
 其实一直以来我都有想做开源的打算，做一个开源的笔记软件，做一个开源的音乐播放器，开源的bt下载器，但那是我第一次参与开源还是在`jellyfin-vue`​ 项目中，我觉得这才算是真正的开源，参与到一个大型的开源项目中虽然只提交一个 PR，不对，是两个，第一个是提交了一个bug 第二个是修复了它。
 
-​`jellyfin-vue`​ 项目目前应该是在 vue2 转向 vue3 的过程中产生了一系列的问题，所以需要有人修复它，但是他的代码贡献好像不是很多，因为我后续可能回使用这个项目，组件了一个 NAS 计划构建一个个人影视中心。
+​`jellyfin-vue`​ 项目目前应该是在 vue2 转向 vue3 的过程中产生了一系列的问题，所以需要有人修复它，但是他的代码贡献好像不是很多，因为我后续可能回使用这个项目，组建了一个 NAS 计划构建一个个人影视中心。
 
 所以从我开始购入NAS的时候就已经计划向这个开源项目贡献代码，虽然公司项目很忙一直加班，最近年前闲下来了，时间不是很紧张，所以我开始第一个贡献。
 
@@ -30,5 +30,3 @@ toc: true
 ### 参考文献
 
 [450天成为Python核心开发者-码农高天](https://bilibili.com/video/BV1of421972c/ "450天成为Python核心开发者-码农高天")
-
-‍
